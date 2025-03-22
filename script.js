@@ -317,7 +317,7 @@ document.getElementById('attendanceForm').addEventListener('submit', async funct
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', async () => {
         try {
-            const registration = await navigator.serviceWorker.register('/sw.js');
+            const registration = await navigator.serviceWorker.register('./sw.js');
             console.log('ServiceWorker registration successful:', registration);
         } catch (err) {
             console.error('ServiceWorker registration failed:', err);
@@ -334,7 +334,7 @@ function createInstallButton() {
     
     installButton = document.createElement('button');
     installButton.className = 'install-btn';
-    installButton.innerHTML = '⬇️ Install App';
+    installButton.innerHTML = 'Install App';
     installButton.style.display = 'none';
     document.body.appendChild(installButton);
 

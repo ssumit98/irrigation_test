@@ -1,18 +1,18 @@
 const CACHE_NAME = 'attendance-form-v1';
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/style.css',
-    '/script.js',
-    '/manifest.json',
-    '/AppIcons/icon-72x72.png',
-    '/AppIcons/icon-96x96.png',
-    '/AppIcons/icon-128x128.png',
-    '/AppIcons/icon-144x144.png',
-    '/AppIcons/icon-152x152.png',
-    '/AppIcons/icon-192x192.png',
-    '/AppIcons/icon-384x384.png',
-    '/AppIcons/icon-512x512.png'
+    './',
+    './index.html',
+    './style.css',
+    './script.js',
+    './manifest.json',
+    './AppIcons/icon-72x72.png',
+    './AppIcons/icon-96x96.png',
+    './AppIcons/icon-128x128.png',
+    './AppIcons/icon-144x144.png',
+    './AppIcons/icon-152x152.png',
+    './AppIcons/icon-192x192.png',
+    './AppIcons/icon-384x384.png',
+    './AppIcons/icon-512x512.png'
 ];
 
 // Install service worker
